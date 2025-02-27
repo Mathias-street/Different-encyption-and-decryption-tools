@@ -1,10 +1,5 @@
-part1.java will encrypt a text file into a mode that the user picks.
-when the encryption option is chosen it will produce a encrypted output that is named by the user or will be generated
-by the method. When decryption option is chosen the same will happen but an input file, key and initialisation vector
-must be provided. Without these the decryption will not work. I have edited Erik Costlow's code to work with my
-application.
-
-To work first you must have a plaintext file you wish to encrypt.
+## How to use!
+first you must have a plaintext file you wish to encrypt.
 in the command line type: Java part1.java enc -i [plaintext file goes here]  DO NOT INCLUDE BRACKETS
 
 That part is needed to make the encryption work. Optionally you can add other options to it to do specific things if needed.
