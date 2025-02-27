@@ -1,4 +1,4 @@
-## How to use!
+# How to use it!
 first you must have a plaintext file you wish to encrypt.
 in the command line type: Java part1.java enc -i [plaintext file goes here]  DO NOT INCLUDE BRACKETS
 
