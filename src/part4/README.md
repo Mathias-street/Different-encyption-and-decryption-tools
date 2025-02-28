@@ -1,3 +1,22 @@
+# How to use it!
+You must have the corresponding plaintext for the encrypted text for this to work.
+
+Use part 2 to encrypt a file using a maximum of six characters. 
+
+Three different modes can be used in this: 
+- '0' is for passwords with **ONLY lowercase** characters
+- '1' is for passwords with **lowercase** and **numbers** characters
+- '2' is for passwords with **lowercase** and **uppercase** characters
+
+The encrypted file to be brute-forced **MUST** be first argument in the command line
+
+Example: Java part4.java encryptedtext.enc -t 0
+
+This will go through every single six charater password possible starting from aaaaaa to zzzzzz
+
+Same usage is for the other mores just type 1 or 2 instead of 0. 
+
+# Discussion
 Brute forcing password with only lower case possibilities that is 6 characters long.
 
 Password used: "trucks" 
